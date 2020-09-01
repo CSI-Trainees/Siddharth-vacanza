@@ -1,0 +1,261 @@
+body{
+    background-image:linear-gradient(rgba(78, 68, 68, 0.5),
+    rgba(78, 68, 68, 0.5)), url("background.png");
+    background-size: cover;
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom:60px;
+    height: 100%;   
+}
+.csi{
+    position: fixed;
+    z-index: 50;
+    font-size:40px;
+    margin-left: 30px;
+    font-family: 'Baloo Bhai 2', cursive; 
+    display: inline-block;
+
+}
+
+.logo{
+    height:30vh;
+    width:30vh;
+    display: block;
+    position: absolute;
+    top: 27%;
+    left: 47%;
+    width: 220px;
+    height: 220px;
+    margin: -60px 0 0 -60px;
+    opacity:0.5;    
+    z-index: 10;
+    -webkit-transition: -webkit-transform 0.3s;
+    
+
+}
+.logo:hover{
+    
+    transform: scale(1.2) rotate(720deg)  ;
+    transition: 0.3 ease-in-out;
+    opacity:10;
+}
+.vacanza{
+    
+    height:85vh;
+    width:90vh;
+    left:60vh;
+    top:17vh;
+    display:block;
+    
+    position: absolute;
+
+}
+.btn{
+    background-color: transparent;
+    border: 4px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 34px;
+    margin: 48px 20px;
+    font-size: 1em;
+    font-family: 'Baloo Bhai 2', cursive; 
+    position:relative;
+    top: 61vh;
+    left: 79vh;
+}
+.btn:hover{
+    color:black;
+    background-color:white;
+    cursor: pointer;
+}
+
+
+.help{
+    
+    background-color: black;
+    font-family:'Baloo Bhai 2', cursive;
+    margin-right: 15px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+    
+}
+
+.help:hover{
+    color:black;
+    transition-delay: 0.3s;
+    transition: ease-in-out;
+    cursor: pointer;
+    background-color: white;
+    transition-delay: 0.4s;
+    transition: ease-in-out;
+}
+.nav{
+    z-index: 40;
+    position: absolute;
+    right: 68px;
+    top: 20px;
+    position:fixed;
+    
+
+    
+} 
+ .container{
+     z-index: 30;
+    background-color:white;
+    position: absolute;
+    right:0;
+    left:0;
+    top:90vh;
+    height:auto;    
+    border: 1px solid white;
+    display: inline-block;
+    width:100%;
+
+}
+.box{
+    margin: 68px 42px;
+    padding: 20px 10px;
+    z-index: 30;
+    box-shadow:20px 20px 50px rgb(151, 158, 151);
+}
+
+.heading{
+    color: black ;
+    font-family: 'Baloo Bhai 2', cursive; 
+}
+.headingbig{
+    color: black ;
+    font-family: 'Baloo Bhai 2', cursive; 
+    border-bottom: 1px solid gray;
+}
+.content{
+    display: inline-block;
+    position: relative;
+    width: 71%;
+    margin: 18px;
+    
+    
+}
+.content p{    
+    color:grey;
+    font-family: 'Baloo Bhai 2', cursive; 
+}
+
+.box img{
+    height: 375px;
+    width: 25%;
+    margin: -62px 1px;
+    left: 65px;
+    top: 70px;
+    margin-left: -40px;
+    padding: -23px;
+    transform: skew(10deg);
+    
+}
+
+.box{
+    
+    overflow: hidden;
+}
+.conimgage{
+    object-fit: cover;
+    display: inline-block;
+    
+}
+#rightcon {
+    display: inline-block;
+    position: relative;
+    top:-32px;
+}
+#rightimg{
+    display: inline-block;
+    position: relative;
+    margin-bottom: -109px;
+    top: -50px;
+    height: 397px;
+    width: 386px;
+}
+.rules{
+    display: inline-block;
+    border:2px solid green;
+    text-decoration: none;
+    border-radius: 20px;
+    padding:9px 28px;
+    color:green;
+    margin-left: 24px;
+    
+}
+.rules {
+    text-decoration: none;
+    color: green;
+    font-family: 'Baloo Bhai 2', cursive; 
+}
+.rules:hover{
+background-color: green;
+color:white;
+
+}
+footer {
+    width: 100%;
+    margin-top: 254vh;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 15;
+    /* left: -23px; */
+    margin-bottom: -67px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+} 
+footer::before {
+	content:" ";
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-blend-mode: color;
+    background-size:cover;
+    background-image: linear-gradient(rgb(67, 231, 67),rgb(5, 100, 5)), url(footer.png);
+	animation: animate 15s infinite ; 
+}
+@keyframes animate {
+  0% {
+    transform: scale(1);
+     }
+  50% {
+    transform: scale(1.1);
+     }
+  100% {
+    transform: scale(1);
+     }
+     }
+ p.copyright {
+	color: white;
+    font-size: 15px;
+    background:#2F4F4F;
+    padding: 8px 0;
+    margin-top: auto;
+    align-self: stretch;
+    text-align: center;
+    margin-bottom: 0;
+    z-index: 15;
+}
+.footer-logos {
+	display: flex;
+	margin: 60px 0;
+	align-items: center;
+	z-index: 15;
+	border-bottom: 2px dotted white;
+}
+.footer-logos a {
+	padding: 0 20px;
+	color:white;
+}
