@@ -126,16 +126,21 @@ body{
     padding: 20px 10px;
     z-index: 30;
     box-shadow:20px 20px 50px rgb(151, 158, 151);
+    display: inline-block;
 }
 
 .heading{
     color: black ;
     font-family: 'Baloo Bhai 2', cursive; 
+    display: inline-block;
 }
 .headingbig{
     color: black ;
     font-family: 'Baloo Bhai 2', cursive; 
     border-bottom: 1px solid gray;
+    margin-right: 20px;
+    
+    
 }
 .content{
     display: inline-block;
@@ -148,44 +153,47 @@ body{
 .content p{    
     color:grey;
     font-family: 'Baloo Bhai 2', cursive; 
+    display: inline-block;
+}
+.rightcon p{    
+    color:grey;
+    font-family: 'Baloo Bhai 2', cursive; 
 }
 
-.box img{
-    height: 375px;
-    width: 25%;
-    margin: -62px 1px;
-    left: 65px;
-    top: 70px;
-    margin-left: -40px;
-    padding: -23px;
-    transform: skew(10deg);
-    
-}
+
 
 .box{
     
     overflow: hidden;
 }
-.conimgage{
+.conimage{
     object-fit: cover;
     display: inline-block;
+    height: 375px;
+    width: 25%;
+    margin: -68px 1px;
+    left: 65px;
+    top: 70px;
+    margin-left: -42px;
+    padding: -23px;
+    transform: skew(10deg);
     
 }
-#rightcon {
+
+.conimageright{
+    object-fit: cover;
     display: inline-block;
-    position: relative;
-    top:-32px;
-}
-#rightimg{
-    display: inline-block;
-    position: relative;
-    margin-bottom: -109px;
-    top: -50px;
-    height: 397px;
-    width: 386px;
+    height: 372px;
+    width: 405px;
+    margin: -67px -43px;
+    left: 79px;
+    top: 70px;
+    margin-left: 1px;
+    transform: skew(10deg);
 }
 .rules{
-    display: inline-block;
+    display:block;
+    width:42px;
     border:2px solid green;
     text-decoration: none;
     border-radius: 20px;
