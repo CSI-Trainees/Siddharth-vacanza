@@ -4,80 +4,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vacanza</title>
+    <link rel="stylesheet" href="text.css">
+    <link rel="icon" type="image/css" href="Favicon.png">
+    
+
+
+    <title> Vacanza </title>
 </head>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
 
-<body>
-    <header class="head">
-        <div class="csi">
-            CSI
+<body> 
+    <header>
+        
+    <!-------------Navigation--------------->
+        
+        <nav>
+            <div class="left_nav">
+                <h1 class="logo"> CSI </h1>
+            </div>
+            
+            
+                <label for="toggle" class="button_nav">
+                    <span class="navigation_icon"> &nbsp; </span>
+                </label>
+            
+
+            <input type="checkbox" id="toggle" class="navigation_check">
+            <label for="toggle" class="button_nav">
+                <span class="navigation_icon"> &nbsp; </span>
+            
+            </label>
+            <div class="right_nav">
+                <a href="#"> HOME </a>
+                <a href="#"> ROUNDS </a>
+                <a href="#"> QUIZZES </a>
+            </div>
+        </nav>
+        
+        <!----------------------- Background Image------------------>
+        
+        
+        <div class="background"></div>
+
+        <div class="logo">
+            <img src="logo.png" alt="logo" class="rotate" style="height: 30vh; width:30vh;">
         </div>
-        <div class="nav">
-
-            <a href="#" class="help">Home</a>
-
-
-            <a href="#" class="help">Rounds</a>
-
-            <a href="#" class="help"> Quizes</a>
-
-        </div>
-        <img src="logo.png" alt="csi logo" class="logo">
-        <img src="vac.svg" alt="vac" class="vacanza">
+        
+        
+        <img src="vac.svg" alt="vac" class="vacanza"  style="height: 90vh; width:60vw;">
+        
+        
         <div class="button">
-            <a href="#" class="btn">REGISTER</a>
-            <a href="#" class="btn">START QUIZ</a>
+            <a href="#" class="btn"><span>REGISTER</span></a>
+            <a href="#" class="btn"><span>START QUIZ</span></a>
+            
         </div>
+
     </header>
+
+    <!--------1st card--------->
+
     <div class="container">
-        <div class="box">
-            <div class="content" id="rightcon">
-                <h2 class="headingbig">ROUND 1</h2>
-                <p>
-                    Round 1 comprises of 4 domains from which participants have
-                    to select at least 2 domains and can choose maximum of 4 domains
-                    for more points. The more domain you opt for, the more you score.
-                </p>
-                <h4 class="heading">The four domains are:</h4>
-                <p> Vintage Photography | Leaf Collage | Origami Art | Face Mask Art</p>
-                <a href="#" class="rules">RULES</a>
+        <div class="cont">
+            <div class="card">
+                <div class="image-data">
+                    <img class="back-img" src="vintage.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="post">
+                        <h2 class="headingbig">ROUND 1</h2>
+                        <hr>
+                        <p> Round 1 comprises of 4 domains from which participants have to select at least 2 domains and can
+                            choose maximum of 4 domains for more points. The more domain you opt for, the more you score.
+                        </p>
+                        <h4 class="heading">The four domains are:</h4>
+                        <p>Vintage Photography | Leaf Collage | Origami Art | Face Mask Art</p><br>
+                    </div>
+                    
+                        <a href="#" class="rules">RULES</a>
+                    
+                </div>
             </div>
-            <img src="vintage.jpg" alt="" class="conimageright" >
+    
+    
+    
+    
         </div>
-        <div class="box">
-            <img src="quiz.jpg" alt="" class="conimage">
-
-            <div class="content">
-                <h2 class="headingbig">ROUND 2</h2>
-                <p style="margin-top:20px;">Test your knowledge just by answering some basic questions
-                    and gain points easily.Round 2 contains quiz questions based on
-                    popular TV series and sports.
-                </p>
-                <h4 class="heading">The field are as follows:</h4>
-                <p>Football | Stranger Things| Cricket | F.r.i.e.n.d.s</p>
-                <a href="#" class="rules">RULES</a>
+        
+        <!-- 2nd  card -->
+        
+        
+        <div class="cont">
+            <div class="card">
+    
+                <div class="content">
+                    <div class="post">
+                        <h2 class="headingbig">ROUND 2</h2>
+                        <hr>
+                        <p>Test your knowledge just by answering some basic questions and gain points easily.Round 2
+                            contains quiz questions based on popular TV series and sports.</p>
+                        
+                        <h4 class="heading">The field are as follows:</h4> <p>Football | Stranger Things| Cricket | F.r.i.e.n.d.s</p><br>
+                    </div>
+                    
+                      <a href="#" class="rules">RULES</a>
+                    
+                </div>
+                <div class="image-data" style="margin-right: -30px; transform: skewX(-10deg);">
+                    <img class="back-img" src="quiz.jpg" alt="">
+                </div>
             </div>
         </div>
-        <div class="box">
-            <div class="content">
-                <h2 class="headingbig">ROUND 3</h2>
-                <p>The final round consists of making an interesting and astonishing magic trick video which might force
-                    people to say "How did you do that!".
-                </p>
-                <p> The best and the most surprising video will be selected as the winner.</p>
-                <a href="#" class="rules">RULES</a>
-
+    
+    
+        <!-- 3rd card -->
+        
+        <div class="cont" style=" padding-bottom: 3rem;">
+            <div class="card">
+                <div class="image-data">
+                    <img class="back-img" src="magic.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="post">
+                        <h2 class="headingbig">ROUND 3</h2>
+                        <hr>
+                        <p>The final round consists of making an interesting and astonishing magic trick video which might
+                            force people to say "How did you do that!".
+    
+                        </p>
+                        
+                        <p>The best and the most surprising video will be selected as the winner.</p><br>
+                    </div>
+                    
+                        <a href="#" class="rules">RULES</a>
+                </div>
             </div>
-            <img src="magic.jpg" alt="" class="conimageright" >
         </div>
+        
+        
+        <!--------------------FOOTER------------------------>
+        
+        <footer>
+            <div class="img-data">
+                <div class="footerimg">
+                    <img src="" alt="" class="img-gal">
+                    
+                </div>
+                
+            </div>
+            <div class="link">
+                <div class="contact">
+                    <img src="email.png" alt="">
+                    <img src="insta.png" alt="">
+                    <img src="fb.png" alt="">
+                </div>
+            </div>
+            <div class="last_footer">
+                <h6 class="copyright">&copy; CSI-AKGEC 2018</h6>
+            </div>
+    
+        </footer>
 
     </div>
-    <footer>
-    </footer>
+    
 </body>
-
-
 
 </html>
